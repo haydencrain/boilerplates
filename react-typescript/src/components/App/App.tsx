@@ -9,15 +9,14 @@ interface TestProps {
 const Test = (props: TestProps) => (
   <div className="test">
     <h1>{props.header}</h1>
-		<img src={duck} />
+    <img src={duck} />
   </div>
-)
+);
 
 const App = () => (
-	<div className="app">
+  <div className="app">
     <Test header="Hello World!" />
-	</div>
+  </div>
 );
 
 export default App;
-
